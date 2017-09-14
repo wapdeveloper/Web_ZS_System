@@ -1,0 +1,12 @@
+﻿[
+	{
+		"name": "vectorType",
+		"title": "地图",
+		"thumbs": "./images/vectorType.png"
+	},
+	{
+		"name": "imageType",
+		"title": "影像",
+		"thumbs": "./images/imageType.png"
+	}
+]

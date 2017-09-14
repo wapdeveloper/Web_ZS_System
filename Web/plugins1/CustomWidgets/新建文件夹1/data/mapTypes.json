@@ -1,0 +1,14 @@
+[
+	{
+		"title": "vectorType",
+		"mapImg": "./images/vectorType.png"
+	},
+	{
+		"title": "imageType",
+		"mapImg": "./images/imageType.png"
+	},
+	{
+		"title": "topoType",
+		"mapImg": "./images/topoType.png"
+	}
+]

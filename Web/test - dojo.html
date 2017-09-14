@@ -1,0 +1,22 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>创建第一个应用</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />	
+
+	<script type="text/javascript" src="http://localhost:8094/3.9/js/dojo/dojo/dojo.js"></script>                 
+	<script type="text/javascript" language="Javascript">
+		require(["dojo/counter", "dojo/domReady!"], function(counter) { 
+                console.log(counter.getValue());
+                counter.increment();
+                console.log(counter.getValue());
+                counter.decrement();
+                console.log(counter.getValue());
+			})
+	</script>
+</head>
+ <body class="claro" >
+		
+ </body>
+ </html>

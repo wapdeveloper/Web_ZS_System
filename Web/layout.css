@@ -1,0 +1,71 @@
+﻿/*
+*页面布局
+*/
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.html, body {
+    /*height: 100%;*/
+    *overflow: hidden;  /*消除IE7下的横向滚动条
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+
+}
+
+.mainheader, .maincontainer, .mainfooter {
+    width: 100%;
+    min-width: 960px;
+}
+
+.mainheader {
+    background: black;
+    color: white;
+    top: 0;
+    height: 77px;
+    position: absolute;
+    text-align: center;
+
+}
+
+.maincontainer {
+    top: 80px;
+    bottom: 30px;
+    position: absolute;
+    overflow: visible;
+}
+
+/*.left{
+	width:370px;
+	float:left;
+	height:100%; 
+	
+	background:blue;
+}
+
+.right{
+	height:100%; 
+	width:100%;
+	
+	background:#DDD;
+}*/
+
+.mainfooter {
+    position: fixed;
+    background: gray;
+    bottom: 0;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1000
+}

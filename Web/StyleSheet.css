@@ -1,0 +1,23 @@
+﻿.dijitButtonNode {
+  border-radius:6px;
+
+}
+
+
+.dijitButtonText {
+    border-radius: 6px;
+    padding: 10px 10px;
+
+}
+
+.dijitReset {
+
+    font: inherit;
+    line-height: normal;
+}
+
+
+.btn1 :hover {
+    /*color: #FFF;*/
+    /*background: #0C0;*/
+}
